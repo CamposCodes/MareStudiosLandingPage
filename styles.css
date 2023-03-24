@@ -37,14 +37,11 @@ body {
     }
     #nav {
         margin: 0;
-        padding-top: 1.5rem;
+        /* padding-top: 1.5rem; */
         position: fixed;
     }
     #logo__img {
         margin-left: 0.5rem;
-        margin-top: 0.5rem;
-        width: 18px;
-        height: 50px;
     }
     #logo__text {
         display: none;
@@ -84,48 +81,23 @@ body {
         width: 100vw;
         height: 100vh;
     }
-    #contact1 {
-        display: none;
-    }
-    #contact2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: var(--white);
+    #contatos ul {
         width: 100vw;
-        height: 100vh;
-        justify-content: center;
-        list-style: none;
-    }
-    #contact2 .contact__op {
-        background: transparent;
-        width: 5rem;
-        height: 2rem;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
-        border-radius: 5rem;
-    }
-    #contact2 .contact__op a {
-        width: 5rem;
-        height: 2rem;
-        text-decoration: none;
         text-align: center;
     }
-    #contact2 .contact__op a i {
+    #contato ul li {
+        max-width: 3.6em;
         text-align: center;
-        font-size: 1.5rem;
-        color: var(--white);
-        margin: 0 auto;
     }
-    #contact2 .contact__title {
-        color: var(--white);
-        font-size: 18px;
+    #contato ul li a {
+        text-align: center;
+        max-width: 3.6em;
     }
-    section {
-        min-height: 100vh;
-        padding-top: 3.5rem;
+    .text {
+        display: none;
     }
 }
 
@@ -250,7 +222,6 @@ section {
 
 #contato {
     box-shadow: 0px -10px 30px 0px rgba(0, 0, 0, 0.15);
-    /* background: var(--grayP); */
     background-image: url('./assets/media/img3.png');
     background-position: center center;
     background-repeat: no-repeat;
@@ -261,15 +232,10 @@ section {
     justify-content: center;
     align-items: center;
     padding: 0;
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-#contact2 {
-    display: none;
 }
 
 #contato ul li {
