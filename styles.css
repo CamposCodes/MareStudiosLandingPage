@@ -39,9 +39,6 @@ body {
         width: 100vw;
         position: fixed;
     }
-    #logo__img {
-        margin-left: 0.5rem;
-    }
     #logo__text {
         display: none;
     }
