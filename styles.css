@@ -43,7 +43,8 @@ body {
         display: none;
     }
     #logo__img {
-        margin-left: -5px;
+        margin-left: -10px;
+        margin-right: 1rem;
     }
     nav ul li {
         font-size: 12px;
